@@ -69,4 +69,10 @@ public with sharing class GeocodingService {
         @InvocableVariable
         public Decimal lon;
     }
+public class Coordinates {
+        @InvocableVariable
+        public Decimal lat;
+        @InvocableVariable
+        public Decimal lon;
+    }
 }
