@@ -4,8 +4,8 @@ public without sharing class CodeScanPRStress5000 {
 
     public static void issue_00001() {
         Account account_00001 = null;
-        String accountName_00001 = account_00001.Name;
-        System.debug('bug-null-deref-00001=' + accountName_00001);
+        String accountName00001 = account_00001.Name;
+        System.debug('bug-null-deref-00001=' + accountName00001);
     }
 
     public static void issue_00002() {
@@ -42253,3 +42253,4 @@ public without sharing class CodeScanPRStress5000 {
     }
 
 }
+
