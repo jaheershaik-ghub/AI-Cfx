@@ -1,3 +1,6 @@
+/**
+ * CodeScanPRStress5000 - Stress test class covering all types and severities for PR 5K scenarios.
+ */
 public without sharing class CodeScanPRStress5000 {
 
     private static final String CLASS_MARKER = 'PR_5K_ALL_TYPES_ALL_SEVERITIES';
@@ -42253,3 +42256,4 @@ public without sharing class CodeScanPRStress5000 {
     }
 
 }
+
